@@ -1,0 +1,6 @@
+n= input("Enter the number which you want to count")
+count=0
+for i in range(0,len(n)):
+    count+=1
+
+print(count)

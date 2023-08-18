@@ -1,0 +1,16 @@
+import random
+
+
+number = random.randint(1, 100)
+#60
+user = int(input("Enter a number: "))
+#20
+while user != number:
+    if user < number:
+        print("The number is greater than this.")
+    elif user > number:
+        print("The number is less than this.")
+    
+    user = int(input("Try again: "))
+
+print("Congratulations! You guessed the correct number:", number)

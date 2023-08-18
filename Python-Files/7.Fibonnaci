@@ -1,0 +1,43 @@
+
+
+from re import A
+
+
+n=int(input("enter a number"))  #converts input into integer
+
+#fabonaci means 0 1 1 2 3 5 8
+# while(n>=1):
+#     a=a+b
+#     print(b)
+#     b=a
+a=0
+b=1
+
+for i in range(0,n): #5
+    print(a)
+    temp=a+b         
+    b=a 
+    a=temp
+
+
+# iterion 1
+#  a=0
+#  temp=1
+#  b=1
+#  a= 1
+# out put 0
+
+ #iteration 2
+#  a=1
+#  temp=1
+#  b=1
+#  a=2
+# output 1
+
+#iteration 3
+
+
+
+   
+
+

@@ -1,0 +1,17 @@
+
+
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+operation=input("enter operation you want to perform")
+
+if(operation=='1'):
+    print(a+b)
+elif(operation=='2'):
+    print(a-b)
+elif(operation=='3'):
+    print(a/b)
+elif(operation=='4'):
+    print(a*b)
+elif(operation=='5'):
+    print(a%b)
+    
